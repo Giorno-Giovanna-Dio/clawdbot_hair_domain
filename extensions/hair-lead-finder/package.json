@@ -1,0 +1,23 @@
+{
+  "name": "@openclaw/hair-lead-finder",
+  "version": "0.1.0",
+  "description": "AI-powered lead finder for beauty & hair salon owners on Instagram",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "bun run src/index.ts",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  },
+  "devDependencies": {
+    "openclaw": "workspace:*",
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.0"
+  },
+  "peerDependencies": {
+    "openclaw": "*"
+  }
+}

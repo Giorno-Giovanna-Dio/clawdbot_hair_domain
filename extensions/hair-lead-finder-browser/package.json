@@ -1,0 +1,23 @@
+{
+  "name": "@openclaw/hair-lead-finder-browser",
+  "version": "0.1.0",
+  "description": "AI-powered lead finder using OpenClaw browser - no external scraper needed",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "bun run src/index.ts",
+    "demo": "bun run src/demo.ts",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "openai": "^4.70.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.0"
+  },
+  "peerDependencies": {
+    "openclaw": "*"
+  }
+}
